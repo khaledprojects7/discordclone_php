@@ -1,0 +1,14 @@
+ErrorDocument 404 "<head><link rel='stylesheet' href='css/style.css'></head><div class='error'><h1>404</h1><p>Page not found</p></div>"
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+<ifModule mod_rewrite.c>
+RewriteEngine On
+
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteRule ^(.*)$ ./index.php?page=$1 [L,QSA]
+
+
+</ifModule>

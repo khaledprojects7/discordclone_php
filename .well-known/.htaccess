@@ -1,0 +1,5 @@
+DocumentError 303 "<h1>Error</h1>"
+<IfModule mod_rewrite.c> 
+        RewriteCond %{REQUEST_FILENAME} !.well-known/
+        RewriteRule "(^|/)\.(?!well-known)" - [F]
+    </IfModule>
