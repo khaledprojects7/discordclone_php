@@ -3,7 +3,7 @@
 session_name('user_SESSID');
 session_start();
 
-require_once '../../config.php';
+require_once '../config.php';
 
 $serverName = $_POST['servName'];
 $data = ['name'=>$serverName];

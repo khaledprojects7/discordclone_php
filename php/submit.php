@@ -1,7 +1,7 @@
 <?php
 session_name('user_SESSID');
 session_start();
-require_once '../../config.php';
+require_once '../config.php';
 
 if(isset($_POST['login']) && !empty($_POST['login']) && $_POST['login'] == 1){
 

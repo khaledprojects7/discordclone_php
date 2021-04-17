@@ -1,7 +1,7 @@
 <?php
 session_name('user_SESSID');
 session_start();
-require_once '../../config.php';
+require_once '../config.php';
 
 $data = [
 'channel'=>$_SESSION['channel']['ID'],

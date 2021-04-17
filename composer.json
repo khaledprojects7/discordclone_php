@@ -1,0 +1,12 @@
+{
+    "name": "loukd/discordclone_php",
+    "authors": [
+        {
+            "name": "loukmanekhaled1",
+            "email": "loukmanekhaled.education@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.3"
+    }
+}
