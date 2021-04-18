@@ -631,7 +631,7 @@ transform: translateY(0px) translateZ(0px);
     color:#72767d;
 }
 .container  .top h1{
-    font-family: 'whitney';
+    font-family: 'whitney medium';
     font-size: 17px;
     font-weight: 500;
     margin-left:8px;
@@ -1359,7 +1359,7 @@ margin-top:2px;
     height: 100%;
     
     padding:0 50px;
-    font-family: 'whitney';
+    font-family: 'whitney medium';
 }
 .settingsCtn .right .view .title{
     color:#fff;
@@ -1499,7 +1499,7 @@ margin-top:2px;
     flex-direction: column;
     
     justify-content: space-between;
-    font-family: 'whitney';
+    font-family: 'whitney medium';
     color:inherit;
     
     box-shadow: 0 0 2px 0 #18191c;
@@ -1515,7 +1515,7 @@ margin-top:2px;
 .createInviteContainer .header .head h1{
     font-size: 17px;
     font-weight: 500;
-    font-family: 'whitney';
+    font-family: 'whitney medium';
     max-width: 280px;
     word-break: keep-all;
     text-overflow: ellipsis;
