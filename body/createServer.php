@@ -62,7 +62,7 @@ session_start();
         </div>
         <div class="field">
             <label>Nom du serveur</label>
-            <?php require_once '../../config.php'; 
+            <?php require_once '../config.php'; 
             $me = $_SESSION['user_id'];
             $query = $db->query("SELECT * FROM users WHERE ID = $me");
             $user_data = $query->fetch();
