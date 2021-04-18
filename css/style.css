@@ -1,10 +1,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
-@import url("https://db.onlinewebfonts.com/c/95802a92109828b83b1042830d859927?family=Whitney");
-@import url("https://db.onlinewebfonts.com/c/7234adf2685474c81e28858c37d40610?family=Whitney");
-@import url("https://db.onlinewebfonts.com/c/294afa63edf49dc293dd90373066b4d4?family=Whitney");
-@import url("https://db.onlinewebfonts.com/c/62b7ed79de33fd64c1c321a150243237?family=Whitney");
-@import url("https://db.onlinewebfonts.com/c/6897a1fa2639214696fc1d3809948c48?family=Whitney");
+@font-face {
+    font-family: 'Whitney Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Whitney Medium'), url('whitneymedium.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Whitney Medium Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Whitney Medium Italic'), url('whitneymediumitalic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Whitney Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Whitney Bold'), url('whitneybold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Whitney Semibold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Whitney Semibold Regular'), url('whitneysemibold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Whitney Book';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Whitney Book Regular'), url('whitneybook.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Whitney Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Whitney Light Regular'), url('whitneylight.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Whitney Semibold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Whitney Semibold Italic'), url('WhitneySemiboldItalic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Whitney Book Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Whitney Book Italic'), url('whitneybookitalic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Whitney Light Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Whitney Light Italic'), url('whitneylightitalic.woff') format('woff');
+    }
 *{
     margin:0;
     padding:0;
@@ -631,7 +696,7 @@ transform: translateY(0px) translateZ(0px);
     color:#72767d;
 }
 .container  .top h1{
-    font-family: 'whitney medium';
+    font-family: 'whitney';
     font-size: 17px;
     font-weight: 500;
     margin-left:8px;
@@ -1359,7 +1424,7 @@ margin-top:2px;
     height: 100%;
     
     padding:0 50px;
-    font-family: 'whitney medium';
+    font-family: 'whitney';
 }
 .settingsCtn .right .view .title{
     color:#fff;
@@ -1499,7 +1564,7 @@ margin-top:2px;
     flex-direction: column;
     
     justify-content: space-between;
-    font-family: 'whitney medium';
+    font-family: 'whitney';
     color:inherit;
     
     box-shadow: 0 0 2px 0 #18191c;
@@ -1515,7 +1580,7 @@ margin-top:2px;
 .createInviteContainer .header .head h1{
     font-size: 17px;
     font-weight: 500;
-    font-family: 'whitney medium';
+    font-family: 'whitney';
     max-width: 280px;
     word-break: keep-all;
     text-overflow: ellipsis;
