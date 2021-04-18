@@ -27,7 +27,7 @@ return $invitelink;
 }
 }
 
-$query = $db->prepare("INSERT INTO invites (guildTarget,vanity,inviteLink,inviterID) VALUES (:guild,0,:invitelink,:me)");
+$query = $db->prepare("INSERT INTO invites (guildTarget,vanity,inviteLink,inviterID,maxUsages) VALUES (:guild,0,:invitelink,:me,0)");
 $inviteLink = checkinvite($db);
 $query->execute([
 'guild'=>$_SESSION['guild']['ID'],
