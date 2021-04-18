@@ -50,7 +50,9 @@ if(isset($_SESSION['user_id'])){
 
 <body oncontextmenu="return false;">
 <?php
+if($page){
    include 'pages/'.$page.'.php';
+}
 ?>
 </body>
 </html>
