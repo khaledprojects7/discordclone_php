@@ -66,7 +66,7 @@ for($i = 0;$i< sizeof($hrolemembers);$i++)
    $gcrfa = $getColoredRole->fetchAll();
    $color = '';
 
-   for($i = $getColoredRole_rowCount - 1;$i>=0;$i--){
+   for($i = $getColoredRole_rowCount - 1;$i=0;$i--){
    $grc = $db->prepare("SELECT * FROM roles WHERE increment = :inc AND guildID = :guild ORDER BY increment ASC");
    $grc->execute(['inc'=>$gcrfa[$i]['roleIncrement'],'guild'=>$_SESSION['guild']['ID']]);
    $grc = $grc->fetch();
