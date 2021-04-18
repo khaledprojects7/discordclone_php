@@ -9,7 +9,7 @@ $data = [
 'message'=>$_POST['message']
 ];
 
-$query = $db->prepare("INSERT INTO messages (channel,sender,content) VALUES (:channel,:sender,:message)");
+$query = $db->prepare("INSERT INTO messages (channel,sender,content,modified,replyTo) VALUES (:channel,:sender,:message,0,0)");
 $query->execute($data);
 
 exit(0);
